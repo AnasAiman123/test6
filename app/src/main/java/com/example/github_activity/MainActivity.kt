@@ -12,7 +12,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //save to firebase
+        
+        //Anas
         button.setOnClickListener {
             var name = editTextTextPersonName.text.toString()
             var id = editTextTextPersonName2.text.toString()
